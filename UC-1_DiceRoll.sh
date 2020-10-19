@@ -18,5 +18,6 @@ do
 
     fi
 done
+count=$(($count+1))
 echo "number of times dice roll : $count"
 echo "sum is : $sum"
