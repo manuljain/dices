@@ -14,6 +14,7 @@ do
         count=$(($count+1))
         sum=$(($sum+$r3))
     else
+        echo "both dice got 6"
         break
 
     fi
